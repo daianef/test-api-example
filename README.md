@@ -30,6 +30,8 @@ Frameworks úteis para teste:
 
 * [RSpec (BDD)](http://rspec.info/)
 * [Airborne](https://github.com/brooklynDev/airborne)
+* [minitest](https://github.com/seattlerb/minitest)
+* [test-unit](https://github.com/test-unit/test-unit/blob/master/doc/text/how-to.md)
 
 Para testar APIs REST você pode usar a gem [airborne](https://github.com/brooklynDev/airborne). Ele irá abstrair as requisições HTTP e deixará o teste mais legível.
 
@@ -54,7 +56,7 @@ end
 
 ### Primeiros passos
 
-* Gerencie suas gems usando [bundler](bundler.io)
+* Gerencie suas gems usando [bundler](http://bundler.io).
 * Organize seus testes em arquivos/pastas.
 * Escolha um framework.
 * Escreva um teste de cada vez, execute e refatore.
